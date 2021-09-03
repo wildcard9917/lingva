@@ -3,7 +3,9 @@ package com.example.lingva
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.lingva.ui.main.MainFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

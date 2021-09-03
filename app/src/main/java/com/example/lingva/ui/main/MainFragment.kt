@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.lingva.R
+import dagger.hilt.android.AndroidEntryPoint
 
 class MainFragment : Fragment() {
 
